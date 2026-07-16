@@ -78,7 +78,34 @@
 
 // console.log(a--);
 
-let a= 10
-let b= 20
- let c= a++ - --a
-console.log(c);
+// let a= 10
+// let b= 20
+// let c= a++ - --a
+// console.log(c);
+
+// console.log(Math.abs(-10));
+// console.log(Math.ceil(10.1));
+// console.log(Math.floor(10.9));
+// console.log(Math.round(10.5));
+// console.log(Math.trunc(10.9));
+
+
+// let prompt = require('prompt-sync')();
+
+// let p = prompt("enter the principle amount ");
+// let r= prompt("enter the rate of interest ");
+// let t= prompt("enter the time period ");
+
+// // console.log(p* Math.pow(1+ (r/100), t)- p);
+// // let si = (p*r*t)/100;
+
+// // console.log(`the simple interest is ${si}`);
+
+// console.log(Math.trunc(Math.random()*9000)+1000); 
+
+// let prompt = require('prompt-sync')();
+
+// let r= Number(prompt ("enter the radius of the circle "));
+
+// console.log(`the area of the circle is ${Math.PI * r * r}`);
+
