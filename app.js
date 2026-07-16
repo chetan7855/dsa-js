@@ -54,6 +54,26 @@
 // 3
 // console.log(a,b);
 // [a,b]=[b,a];
-// console.log(a,b);
+// console.log(a,b)
 
-ddddd
+// second lesson 
+
+// console.log(Math.floor(10/3));
+
+// console.log(10>=9);
+// console.log('9'===9);
+// console.log(9!=10);
+
+// console.log(!(12>7 || 8<56 || 8>12));
+
+// let a= 12
+// let b=10
+// let c=15
+
+// let d= a++ + --b + - c++ + ++a
+
+// console.log(d);
+
+// let a = 10;
+
+// console.log(a--);
