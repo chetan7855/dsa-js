@@ -44,3 +44,63 @@ let prompt = require ('prompt-sync')();
 // if (year%4==0 && year %100 !=0 || year %400==0) console.log ("leap year ");
 // else {console.log("not a leap year")}
 
+// let amount = prompt ("enter your amount ")
+
+// if (amount>0 && amount <=5000){
+//     console.log("payable amount is " + amount );
+// } 
+// else if (amount>5001 && amount <=7000){
+//     console.log("payable amount is " + (amount-(amount*5/100)));
+// }
+// else if (amount>7001 && amount <=9000){
+//     console.log("payable amount is " + (amount-(amount*10/100)));
+// }
+// else {
+//     console.log("payable amount is " + (amount-(amount*20/100)));
+// }
+
+// let unit = Number(prompt("enter your unit "));
+
+// if (unit>0 && unit <=100){
+//     console.log("payable amount is " + (unit*4.2));
+// }
+// else if (unit>100 && unit <=200){
+//     console.log("payable amount is " + ((100*4.2) + ((unit-100)*6)));
+// }
+// else if (unit>200 && unit <=400){
+//     console.log("payable amount is " + ((100*4.2) + (100* 6)+(unit-200)*8));
+// }
+// else if (unit>400) console.log("payable amount is " + ((100*4.2) + (100* 6)+(200*8)+(unit-400)*13));
+// let amount =0;
+// if (unit>400){
+//     amount=(unit -400)*13
+//     unit= 400
+// }
+// if (unit>200 && unit <=400){
+//     amount= amount+(unit -200)*8 ;
+//     unit = 200
+// }
+// if (unit>100 && unit <=200){
+//     amount= amount+(unit -100)*6 ;
+//     unit =100
+// }
+ 
+// amount = amount + (unit*4.2);
+
+// console.log("payable amount is " + amount);
+
+let month = Number (prompt("enter your month "));
+let year = Number (prompt("enter your year "));
+let days= 0;
+
+if (month==2) {
+    if (year%400==0 || year%4==0 && year%100!=0){
+        days = 29;
+    }else days =28;
+}
+else if (month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12){
+    days = 31;
+}
+else days =30;
+
+console.log(days);
