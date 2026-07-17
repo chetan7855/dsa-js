@@ -20,3 +20,27 @@ let prompt = require ('prompt-sync')();
 // else if(marks >30 && marks <=40) console.log ("F");
 // else {console.log("dont come to school MF boyieee")}
 
+// let a = Number(prompt("enter a number "));
+// let b = Number (prompt ("enter a munber"));
+
+// if (a>b) console.log("a is greater than b");
+// else { console.log("b is greater then a ")}
+
+// let a= Number(prompt("enter a number "));
+
+// if (a%2==0) console.log("even number");
+// else {console.log("odd number ")};
+
+// let a= Number(prompt("enter a number "));
+// let b= Number(prompt("enter a number "));
+// let c= Number(prompt("enter a number "));
+
+// if (a>b && a>c) console.log("a is greater then b and c");
+// else if (b>a && b>c) console.log("b is greater then a and c");
+// else if (c > a && c> b ) console.log (" c is greater then a and b");
+
+// let year = Number (prompt ("enter a year "));
+
+// if (year%4==0 && year %100 !=0 || year %400==0) console.log ("leap year ");
+// else {console.log("not a leap year")}
+
