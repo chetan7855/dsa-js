@@ -86,3 +86,4 @@ let prompt = require ("prompt-sync")();
 // else if (b == c && b > a) {
 //     console.log("b and c are equal and greater than a");
 // }
+                                                  
