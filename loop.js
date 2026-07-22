@@ -17,7 +17,19 @@ let prompt = require('prompt-sync')();
 // if (count==2) console.log("prime number");
 // else console.log("not prime number");
 
-let num = 12345;
+// let num = 12345;
+// let reverse = 0;
+
+// while (num > 0) {
+//     let digit = num % 10;
+//     reverse = reverse * 10 + digit;
+//     num = Math.floor(num / 10);
+// }
+
+// console.log(reverse);
+
+let num = 121;
+let original = num;
 let reverse = 0;
 
 while (num > 0) {
@@ -26,4 +38,8 @@ while (num > 0) {
     num = Math.floor(num / 10);
 }
 
-console.log(reverse);
+if (original === reverse) {
+    console.log("Palindrome");
+} else {
+    console.log("Not Palindrome");
+}
